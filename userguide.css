@@ -1,0 +1,417 @@
+﻿body {
+    width: 100%;
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-family: 'Biome';
+}
+
+h1, h2, h3, h4, h5, h6, p, span, div, ul, li, button, button:active, button:focus, button:visited, button:hover, input, input:active, input:focus, input:visited, input:hover, a, a:active, a:focus, a:visited, a:hover, select, option, textarea, textarea:active, textarea:focus, textarea:visited, textarea:hover {
+    outline: none;
+    font-family: 'Biome';
+}
+
+/*@font-face {
+    font-family: 'BiomeW04Light';
+    src: url('../fonts/BiomeW04Light/BiomeW04Light.eot') format('eot'), url('../fonts/BiomeW04Light/BiomeW04Light.woff2') format('woff2'), url('../fonts/BiomeW04Light/BiomeW04Light.woff') format('woff'), url('../fonts/BiomeW04Light/BiomeW04Light.ttf') format('truetype'), url('../fonts/BiomeW04Light/BiomeW04Light.svg') format('svg');
+}*/
+
+@font-face {
+    font-family: "Biome";
+    src: url("https://db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.eot");
+    src: url("https://db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.woff") format("woff"), url("//db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1d4d7dd348a7632d33c193edf4827f87.svg#Biome") format("svg");
+}
+
+
+a, a:hover, a:visited, a:focus, a:active {
+    outline: none;
+    border: 0;
+    text-decoration: none;
+}
+
+    a h4:hover {
+        text-decoration: underline;
+    }
+
+.userguide-container {
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.steparea {
+    background: #7121ea;
+    width: 100%;
+    padding: 0 0 100px 0;
+    float: left;
+    margin: 0;
+}
+
+.header-title-lg {
+    font-size: 60px;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #fff;
+}
+
+
+.step12 {
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background: transparent;
+    left: -20px;
+}
+
+
+.step1 {
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    top: 50px;
+    position: relative;
+}
+
+.steptitle1 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 550px;
+    position: relative;
+    left: 150px;
+}
+
+
+.step1 p {
+    float: left;
+    width: 450px;
+    padding: 5px 50px 5px 15px;
+    margin: 30px 0 0 0;
+    border: 10px solid #fff;
+    background: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    color: #7121ea;
+    border-radius: 30px;
+    left: 0;
+    position: absolute;
+}
+
+.title-lg p {
+    left: -90px;
+}
+
+.stepaea56 {
+    padding-top: 100px;
+}
+
+.stepline1 {
+    position: relative;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    background: #fff;
+    color: #7121ea;
+    border-radius: 999px;
+    width: 110px;
+    float: left;
+    font-weight: 600;
+    line-height: 2.1;
+    right: 0;
+    float: right;
+    border: 10px solid #7121ea;
+    z-index: 9;
+    box-shadow: 8px 2px 24px -5px #000;
+}
+
+
+.step1 img {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 70px 0 10px 0;
+    box-shadow: 0px 7px 27px -5px #000;
+    left: -50px;
+}
+
+
+.step1 h4 {
+    width: 550px;
+    padding: 5px 10px 50px 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    left: -50px;
+    position: relative;
+}
+
+
+.step2 {
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: relative;
+    left: 100px;
+}
+
+.steptitle2 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 550px;
+    position: relative;
+    right: 195px;
+}
+
+
+.step2 p {
+    float: right;
+    width: 400px;
+    padding: 5px 15px 5px 50px;
+    margin: 25px 0 0 0;
+    border: 10px solid #fff;
+    background: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    color: #7121ea;
+    border-radius: 30px;
+    left: 100px;
+    position: absolute;
+}
+
+.stepline2 {
+    position: relative;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    background: #fff;
+    color: #7121ea;
+    border-radius: 999px;
+    width: 110px;
+    float: left;
+    font-weight: 600;
+    line-height: 2.1;
+    right: 0;
+    float: left;
+    border: 10px solid #7121ea;
+    z-index: 9;
+    box-shadow: -8px 2px 24px -5px #000;
+}
+
+
+.step2 img {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+    box-shadow: 0px 7px 27px -5px #000;
+}
+
+
+.step2 h4 {
+    width: 550px;
+    padding: 5px 10px 50px 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.steparea34 {
+    background: #fff;
+    width: 100%;
+    padding: 100px 0 100px 0;
+    float: left;
+    margin: 0;
+}
+
+
+.step3 {
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    top: 50px;
+    position: relative;
+}
+
+.steptitle3 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 550px;
+    position: relative;
+    left: 150px;
+}
+
+
+.step3 p {
+    float: left;
+    width: 400px;
+    padding: 5px 50px 5px 15px;
+    margin: 30px 0 0 0;
+    border: 10px solid #7121ea;
+    background: #7121ea;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+    left: 0;
+    position: absolute;
+}
+
+.stepline3 {
+    position: relative;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    background: #7121ea;
+    color: #fff;
+    border-radius: 999px;
+    width: 110px;
+    float: left;
+    font-weight: 600;
+    line-height: 2.1;
+    right: 0;
+    float: right;
+    border: 10px solid #fff;
+    z-index: 9;
+    box-shadow: 8px 2px 24px -5px #000;
+}
+
+
+.step3 img {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 70px 0 10px 0;
+    box-shadow: 0px 7px 27px -5px #000;
+    left: -50px;
+}
+
+
+.step3 h4 {
+    width: 550px;
+    padding: 5px 10px 50px 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7121ea;
+    text-align: center;
+    left: -50px;
+    position: relative;
+}
+
+
+.step4 {
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: relative;
+    left: 100px;
+}
+
+.steptitle4 {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 550px;
+    position: relative;
+    right: 195px;
+}
+
+
+.step4 p {
+    float: right;
+    width: 525px;
+    padding: 5px 15px 5px 50px;
+    margin: 12px 0 0 0;
+    border: 10px solid #7121ea;
+    background: #7121ea;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 30px 30px 0;
+    left: 100px;
+    position: absolute;
+}
+
+.stepline4 {
+    position: relative;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 60px;
+    text-align: center;
+    background: #7121ea;
+    color: #fff;
+    border-radius: 999px;
+    width: 110px;
+    float: left;
+    font-weight: 600;
+    line-height: 2.1;
+    right: 0;
+    float: left;
+    border: 10px solid #fff;
+    z-index: 9;
+    box-shadow: -8px 2px 24px -5px #000;
+}
+
+
+.step4 img {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+    box-shadow: 0px 7px 27px -5px #000;
+}
+
+
+.step4 h4 {
+    width: 550px;
+    padding: 5px 10px 50px 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7121ea;
+    text-align: center;
+}
+
+
+.midline1 {
+    position: absolute;
+    background: #333;
+    width: 10px;
+    height: 2100px;
+    z-index: 0;
+    left: 52px;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+
+
+@media screen and (max-width: 1400px) and (min-width: 200px) {
+    .userguide-container {
+        zoom: .9;
+    }
+}
